@@ -37,7 +37,7 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
                 .WithTitle(title)
                 .WithTimestamp(DateTime.Now)
                 .WithThumbnail("https://thetvdb.com/images/logo.png")
-                .WithFooter("Powered by Requestrr");
+                .WithFooter("Dibangun dengan penuh cinta");
 
             if (!string.IsNullOrWhiteSpace(tvShow.Overview))
             {

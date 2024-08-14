@@ -199,7 +199,7 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
                 .WithTimestamp(DateTime.Now)
                 .WithUrl($"https://www.themoviedb.org/movie/{movie.TheMovieDbId}")
                 .WithThumbnail("https://i.imgur.com/44ueTES.png")
-                .WithFooter("Powered by Requestrr");
+                .WithFooter("Dibangun dengan penuh cinta");
 
             if (!string.IsNullOrWhiteSpace(movie.Overview))
             {
